@@ -59,7 +59,8 @@ body {
   input, textarea {
     background-color:  #c3cedd;
     border: 1px solid #0a0a23;
-    color: #ffffff;
+    color: black;
+
   }
   
   .inline {

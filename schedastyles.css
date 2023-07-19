@@ -10,7 +10,7 @@ body{
   background: black;
 }
 .wrapper{
-  width: 330px;
+  width: 500px;
   padding: 2rem 0 1rem 0;
   margin: 50px auto;
   background: #fff;
@@ -22,6 +22,7 @@ body{
 h1{
   font-size: 2rem;
   color: white;
+  text-align: center;
 }
 
 h2{
@@ -68,10 +69,20 @@ text-align: left;
 } 
 
 .wrapper{
-  width: 330px;
+  width: 70%;
   padding: 2rem 0 1rem 0;
   margin: 50px auto;
   background: #e44f4f;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper1{
+  width: 70%;
+  padding: 2rem 0 1rem 0;
+  margin: 25px auto;
+  background: #d76565;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
