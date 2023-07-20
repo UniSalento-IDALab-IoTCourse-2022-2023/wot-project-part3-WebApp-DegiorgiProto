@@ -8,12 +8,5 @@ L'architettura è costituita da:
 4. un backend costituito da un server che fa da intermediario con il database che raccoglie i dati acquisiti e che permette quindi di aggiungerli e prelevarli per la visualizzazione, e il database stesso. [repo backend](https://github.com/UniSalento-IDALab-IoTCourse-2022-2023/wot-project-part2-Backend-DegiorgiProto)
 
 
-## Operazioni preliminari
-
-Bisogna installare la libreria json per elaborare i dati in formato json
-```
-npm install json
-```
-
 Questa repository riguarda l'implementazione di una app web con lo scopo di essere utilizzata dal medico.
 I file in html creano lo scheletro delle pagine della web app, cui è aggiunto lo stile grazie ai file css. I file html tramite i form vanno a interrogare il server nodejs interfacciandosi con il database consentendo al medico di effettuare le operazioni di login e registrazione, mentre le operazioni di visualizzazione dei valori acquisiti dai suoi pazienti tramite la diagnostica domestica sono possibili grazie ai file handlebars che consentono di usare lo stesso scheletro di pagina html ma dinamicamente aggiornati con i dati presi dal db.
