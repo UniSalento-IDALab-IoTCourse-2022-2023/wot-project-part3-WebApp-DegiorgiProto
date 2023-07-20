@@ -10,9 +10,8 @@ L'architettura è costituita da:
 
 ## Operazioni preliminari
 
-Bisogna installare le librerie relative a: la struttura dei documenti web, elaborare i dati in formato json
+Bisogna installare la libreria json per elaborare i dati in formato json
 ```
-npm install html
 npm install json
 ```
 
